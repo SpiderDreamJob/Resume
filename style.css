@@ -1,14 +1,14 @@
-header {
+.header {
   border: 10px;
   border-color: red;
 }
 
-section {
+.section {
   border: 10px;
   border-color: green;
 }
 
-footer {
+.footer {
   border: 10px;
   border-color: cornflowerblue;
 }
