@@ -1,0 +1,14 @@
+header {
+  border: 10px;
+  border-color: red;
+}
+
+section {
+  border: 10px;
+  border-color: green;
+}
+
+footer {
+  border: 10px;
+  border-color: cornflowerblue;
+}
