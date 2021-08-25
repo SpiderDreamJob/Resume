@@ -30,21 +30,45 @@
       <h2 style="text-align: center; color: white;">My Projects!</h2>
 
       <div class="container_section">
-      <figure>
-      <img class="portfolioImg"
-        src="file:///Users/slaterjackson/Desktop/First website imgs/Magic 8ball JS.png"
-        alt="Screenshot of a Magic eight ball code snippet in Javacript."
-        style="width: 300px">
-        <figcaption>Magic 8 Ball</figcaption>
-      </figure>  
+        <figure>
+          <div class="w3-content w3-display-container">
+            <img class="mySlides portfolioImg" src="file:///Users/slaterjackson/Documents/GitHub/Resume/website images/Tetris-1.png style="
+            style="width:100%"
+            alt="image of code snippet for Tetris.">
+            <img class="mySlides portfolioImg" 
+              src="file:///Users/slaterjackson/Documents/GitHub/Resume/website images/Tetris-2.png"
+              style="width:100%"
+              alt="image of code snippet for Tetris.">
+            <img class="mySlides portfolioImg" 
+              src="file:///Users/slaterjackson/Documents/GitHub/Resume/website images/Tetris-3.png" 
+              style="width:100%"
+              alt="image of code snippet for Tetris.">
+        <figcaption>Tetris</figcaption>
+        </figure>
 
-      <figure>
-      <img class="portfolioImg"
-        src="file:///Users/slaterjackson/Desktop/First website imgs/CodeSnippet for FW.png"
-        alt="Screenshot of the code snippet for Slater's first website."
-        style="width: 300px">
-        <figcaption>Slater's First Website</figcaption>
-      </figure> 
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+  
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+  
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+        }
+      </script>
 
       <figure>
       <img class="portfolioImg"
@@ -87,6 +111,8 @@
 
       </div>
     </footer>
+
+    
 </body>
 
 
