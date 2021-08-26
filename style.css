@@ -1,4 +1,4 @@
-header {
+.header {
   border: 2px red;
   height: 100px;
   width: 100%;
@@ -14,4 +14,8 @@ footer {
   border: 2px darkblue;
   height: 50px;
   width: 100%;
+}
+
+#h2-style {
+  text-align: center;
 }
