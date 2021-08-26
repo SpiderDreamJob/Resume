@@ -1,20 +1,17 @@
-.header {
-  border: 10px;
-  border-color: red;
+header {
+  border: 2px red;
   height: 100px;
   width: 100%;
 }
 
-.section {
-  border: 10px;
-  border-color: green;
+section {
+  border: 2px darkgoldenrod;
   height: 1024px;
   width: 100%;
 }
 
-.footer {
-  border: 10px;
-  border-color: cornflowerblue;
+footer {
+  border: 2px darkblue;
   height: 50px;
   width: 100%;
 }
