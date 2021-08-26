@@ -1,18 +1,18 @@
-header {
+.header {
   border: 10px;
   border-color: red;
   height: 100px;
   width: 100%;
 }
 
-section {
+.section {
   border: 10px;
   border-color: green;
   height: 1024px;
   width: 100%;
 }
 
-footer {
+.footer {
   border: 10px;
   border-color: cornflowerblue;
   height: 50px;
