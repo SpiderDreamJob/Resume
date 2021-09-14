@@ -292,17 +292,14 @@ video {
   width: 100%;
 }
 
-/* .project-images {
+ .project-images {
   display: inline-block;
   justify-content: center;
-} */
-
-figure {
-  display: inline-block;
-  justify-content: baseline;
 }
 
 .tech {
-  display: flex;
-  justify-content: space-evenly;
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between;
 }
