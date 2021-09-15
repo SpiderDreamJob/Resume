@@ -4,6 +4,29 @@ header {
   height: 340px;
 }
 
+p {
+  font-family: 'Courier New', Courier, monospace !important;
+  font-weight: bold !important;
+}
+
+ul {
+  font-family: 'Courier New', Courier, monospace !important;
+  font-weight: bold !important;
+  color: solid black;
+}
+
+h3 {
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif !important;
+  color: white;
+  text-shadow: 4px 3px 0px #7A7A7A, 2px 2px 2px rgba(206,89,55,0);
+}
+
+figcaption {
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif !important;
+  color: white;
+  text-shadow: 4px 3px 0px #7A7A7A, 2px 2px 2px rgba(206,89,55,0);
+}
+
 section {
   position: relative;
   border: 2px solid black;
